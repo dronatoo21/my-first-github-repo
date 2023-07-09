@@ -2,14 +2,260 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FIRST GITHUB REPO</title>
-    <link rel="stylesheet" href="style.css">
+    <title>GROCERY SHOP</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="shortcut icon" type="image" href="img/K.jpg">
 </head>
 <body>
-    <div>
-        <h1>DORAEMON</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsam velit nobis neque similique sit dolores, quia corrupti? Veniam dolorum sint quod ipsum adipisci quam distinctio a sunt incidunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quaerat praesentium totam expedita saepe error rerum qui, odit exercitationem ut quae. Odit, itaque soluta hic dolores debitis laborum accusamus laudantium voluptatem eligendi consectetur consequatur, illo harum minima. Esse dolores officiis repudiandae nam vel reiciendis similique facere! Commodi repudiandae ipsum doloremque.</p>
+    <!--<marquee class="slider" direction="">
+        <ul class="sliderone">
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+            <li> Sale </li>
+        </ul>
+    </marquee>-->
+    <div class="display">
+        <div class="header">
+            <img src="####" class="khushi">
+            <div class="srchbar">
+                <select id="srch">
+                    <option>All Categories</option>
+                    <option>Personal Care</option>
+                    <option>Home Care & Cleaning</option>
+                    <option>Baby Care</option>
+                    <option>Food</option>
+                </select>
+                <input class="srch" type="text" name="search" placeholder="Search for items">
+                <i id="srchicn" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="locka">
+                <select id="locka">
+                    <option>Dhaka</option>
+                    <option>Dhaka</option>
+                    <option>Dhaka</option>
+                    <option>Dhaka</option>
+                </select>
+                <i id="lock" class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="nv">
+
+                <ul>
+                    <a href="#"><li>Wishlist</li></a>
+                    <a href="#"><li>Cart</li></a>
+                    <a href="#"><li>Account</li></a>
+                </ul>
+
+                <i id="heart" class="fa-regular fa-heart"></i>
+                <i id="cart" class="fa-solid fa-cart-shopping"></i>
+                <i id="account" class="fa-regular fa-user"></i>
+
+            </div>
+            <hr class="hre">
+        </div>
+        <div class="downhead">
+            <div class="ponnobtn">
+                <i  id="boxic" class="fa-sharp fa-solid fa-boxes-stacked"></i>
+                <select id="ponnobtn">
+                    <option value="" disable selected hidden>পণ্যের ধরন</option>
+                    <option value="0">Personal Care</option>
+                    <option value="1">Home Care & Cleaning</option>
+                    <option value="2">Baby Care</option>
+                    <option value="3">Food</option>
+                </select>
+            </div>
+
+            <div class="navnav">
+                <nav>
+                    <i id="homeic" class="fa-solid fa-house-chimney"></i>
+                    <ul id="navnav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">মুদিপণ্য</a></li>
+                        <li><a href="#">ডাউনলোড</a></li>
+                        <li><a href="#">বিজ্ঞপ্তি</a></li>
+                        <li><a href="#">যোগাযোগ</a></li>
+                        <li><a href="#">সরবরাহকারী</a></li>
+                        <li><a href="#">ঠিকানা</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="contact">
+                <i id="headphn" class="fa-solid fa-headphones-simple"></i>
+                <a href="#">কন্টাক্ট হোয়াটসাপে</a>
+            </div>
+        </div>
     </div>
+    <section class="bdy">
+        <div>
+            <img class="freedl" src="img/ADD.jpg" >
+            <img class="juice" src="img/juice.png" >
+            <a href="#"><button id="shpnw">SHOP NOW</button></a>
+        </div>
+    </section>
+    <br><br><br><br>
+    <div class="product-tabs">
+        <div id="sidelist">
+            <h2>পণ্যের ধরন</h2>
+            <hr id="blueline"><hr class="lineone">
+            <div class="button">
+                <ul>
+                    <a href="#"><li>Personal Care</li></a>
+                    <a href="#"><li>Home Care & Cleaning</li></a>
+                    <a href="#"><li>Baby Care</li></a>
+                    <a href="#"><li>Food</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="allproducts">
+            <h2>জনপ্রিয় পণ্য</h2>
+            <hr id="blueline"><hr class="linetwo">
+            <div class="navone">
+                <a href=""><button id="allcl">All</button></a>
+                <a href=""><button>Personal Care</button></a>
+                <a href=""><button>Home Care & Cleaning</button></a>
+                <a href=""><button>Baby Care</button></a>
+                <a href=""><button>Food</button></a>
+            </div>
+            <div class="allcard">
+                <div id="cardone" class="cardone">
+                    <img id="imgg" src="img/ig3.jpg">
+                    <h3 id="pdttext">PRODUCT</h3>
+
+                </div>
+                <div id="cardone" class="cardone">
+                    <img id="imgg" src="img/ig1.jpg">
+                    <h3 id="pdttext">PRODUCT</h3>
+
+                </div>
+                <div id="cardone" class="cardone">
+                    <img id="imgg" src="img/ig2.jpg">
+                    <h3 id="pdttext">PRODUCT</h3>
+
+                </div>
+                <div id="cardone" class="cardone">
+                    <img id="imgg" src="img/pdt.jpg">
+                    <h3 id="pdttext">PRODUCT</h3>
+
+                </div>
+            </div>
+        </div>
+
+        <section class="secone">
+                <h1>Stay home Stay Safe <br>
+                    Do monthly bazaar on ####</h1>
+                    <p class="pone">Get offers and price updates from 
+                        <a class="khlink" href="#">####</a>
+                    </p>
+                <input class="emone" type="email" name="email" placeholder="Your email address">
+                <button class="bmone">Subscribe</button>
+        </section>
+
+        <div class="downset">
+            <div class="sbox">
+                <h2>Best prices & offers</h2>
+                <p>Orders ৳100 or more</p>
+            </div>
+            <div class="sbox">
+                <h2>Great daily deal</h2>
+                <p>When you sign up</p>
+            </div>
+            <div class="sbox">
+                <h2>Easy returns</h2>
+                <p>Within 30 days</p>
+            </div>
+            <div class="sbox">
+                <h2>Safe delivery</h2>
+                <p>Safe delivery</p>
+            </div>
+            <div class="sbox">
+                <h2>Best prices & offers</h2>
+                <p>Orders ৳100 or more</p>
+            </div>
+        </div>
+
+        <section id="downbar">
+            <div id="favicon">
+                <img src="####" class="favicon">
+                <p class="favp" >Your neighborhood grocery shop</p>
+            </div>
+            <div id="footp">
+                <div class="lsticons">
+                    <i id="lsticons" class="fa-solid fa-location-dot"></i>
+                    <i id="lsticons" class="fa-solid fa-phone"></i>
+                    <i id="lsticons" class="fa-solid fa-envelope"></i>
+                    <i id="lsticons" class="fa-solid fa-star"></i>
+                </div>
+                <p class="footp">Address: <a href="">DhakA 1212 </a></p>
+                <p class="footp">Call Us: <a href=""> (+880) 01######## </a> </p>
+                <p class="footp">Email: <a href=""> #@####.com</a></p>
+                <p class="footp">Open Hours: 09:00am - 11:00pm</p>
+            </div>
+            <div class="comp">
+                <h1>Company</h1>
+                <ul>
+                    <a href="#"><li>About Us</li></a>
+                    <a href="#"><li>Delivery Information</li></a>
+                    <a href="#"><li>Privacy Policy</li></a>
+                    <a href="#"><li>Terms & Conditions</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+                    <a href="#"><li>Support Center</li></a>
+                    <a href="#"><li>Careers</li></a>
+                </ul>
+            </div>
+            <div class="dside">
+                <h1>Khushi Mobile App</h1>
+                <p class="dsone">From App Store or Google Play</p>
+                <a href="#"><img src="img/google-play.jpg" class="gimg"></a>
+                <p class="dstwo">Cash on delivery only</p>
+            </div>
+        </section>
+
+        <div class="downfooter">
+            <br>
+            <p>© 2022 #### Limited - Super saver grocery store<br>
+                All rights reserved</p>
+            <div class="wplast">
+                <h1> 01########</h1>
+                <p>Working 9:00 - 11:00</p>
+            </div>
+            <div class="dltw">
+                <h3>Follow Us</h3>
+            </div>
+            <div class="dltre">
+                <p>Up to 5% discount on your monthly order</p>
+            </div>
+            <div class="lastic">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>               
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
